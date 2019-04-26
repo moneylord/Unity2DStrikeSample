@@ -62,14 +62,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Bullet_Move.cs" />
+    <Compile Include="Assets\Scripts\Enemy.cs" />
+    <Compile Include="Assets\Scripts\Enemy_Data.cs" />
     <Compile Include="Assets\Scripts\MemoryPool.cs" />
+    <Compile Include="Assets\Scripts\Player_Data.cs" />
+    <Compile Include="Assets\Scripts\Player_Event.cs" />
     <Compile Include="Assets\Scripts\Player_Fire.cs" />
     <Compile Include="Assets\Scripts\Player_Move.cs" />
-    <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Users/ma/Desktop/Work/Unity/Project/LauncherSample/RockyStrike/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>C:/Users/ma/Desktop/Work/Unity/Project/LauncherSample/RockyStrike/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/ma/Desktop/Work/Unity/Project/Unity2DStrikeSample/RockyStrike/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PackageManagerUI.Editor">
+      <HintPath>C:/Users/ma/Desktop/Work/Unity/Project/Unity2DStrikeSample/RockyStrike/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
