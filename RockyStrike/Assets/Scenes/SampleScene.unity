@@ -427,7 +427,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerEvent: {fileID: 1943770019}
-  Speed: 1
+  Speed: 3
 --- !u!61 &624530582
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -484,11 +484,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84457fc30a627c74d9d03b39920aa0f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerBullet: {fileID: 1396726935571032, guid: 32a0fb6421d48004d8485a2f56b4ed32,
+  PlayerBullet: {fileID: 1331538534440900, guid: eb2827c78c37d454b95660bd2d4ff5d7,
     type: 2}
   BulletLocation: {fileID: 1122292770}
-  FireDelay: 0
-  BulletMaxPool: 0
+  FireDelay: 0.5
+  BulletMaxPool: 10
 --- !u!1001 &1122292768
 Prefab:
   m_ObjectHideFlags: 0
@@ -596,6 +596,7 @@ GameObject:
   - component: {fileID: 1193503716}
   - component: {fileID: 1193503715}
   - component: {fileID: 1193503718}
+  - component: {fileID: 1193503719}
   m_Layer: 0
   m_Name: EnemyBox
   m_TagString: Enemy
@@ -698,6 +699,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HP: 50
+--- !u!114 &1193503719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1193503714}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79126ad46da756d4ebc8704f78fa6d92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1711338192
 GameObject:
   m_ObjectHideFlags: 0
@@ -800,7 +812,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -880, y: -5}
+  m_AnchoredPosition: {x: -0.000061035, y: -60}
   m_SizeDelta: {x: 160, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1736519987

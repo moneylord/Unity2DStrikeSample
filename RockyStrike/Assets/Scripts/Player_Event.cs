@@ -21,7 +21,7 @@ public class Player_Event : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
     {
-		
+        CheckPlayerHP();
 	}
 
     public void UnderAttack(int _damage)
